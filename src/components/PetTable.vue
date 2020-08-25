@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ species }} for Adoption</h1>
+    <h1>{{ species }} for adoption</h1>
     <b-table striped hover :items="pets">
       <template v-slot:cell(name)="data">
         <router-link :to="`/pets/${species}/${data.index}`">
